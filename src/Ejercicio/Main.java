@@ -21,25 +21,25 @@ public class Main {
         ubicaciones.put(5, new Ubicacion(5, "Estás en un bosque"));
 
         ubicaciones.get(1).addExit("N", 5);
-        ubicaciones.get(1).addExit("S", 3);
-        ubicaciones.get(1).addExit("E", 4);
+        ubicaciones.get(1).addExit("S", 4);
+        ubicaciones.get(1).addExit("E", 3);
         ubicaciones.get(1).addExit("O", 2);
         ubicaciones.get(1).addExit("Q", 0);
 
         ubicaciones.get(2).addExit("N", 5);
-        ubicaciones.get(2).addExit("S", 1);
-        ubicaciones.get(2).addExit("E", 4);
+        ubicaciones.get(2).addExit("S", 4);
+        ubicaciones.get(2).addExit("E", 1);
         ubicaciones.get(2).addExit("Q", 0);
 
-        ubicaciones.get(3).addExit("N", 1);
+        ubicaciones.get(3).addExit("O", 1);
         ubicaciones.get(3).addExit("Q", 0);
 
         ubicaciones.get(4).addExit("N", 1);
-        ubicaciones.get(4).addExit("S", 2);
+        ubicaciones.get(4).addExit("O", 2);
         ubicaciones.get(4).addExit("Q", 0);
 
-        ubicaciones.get(5).addExit("N", 1);
-        ubicaciones.get(5).addExit("S", 2);
+        ubicaciones.get(5).addExit("S", 1);
+        ubicaciones.get(5).addExit("O", 2);
         ubicaciones.get(5).addExit("Q", 0);
 
     }
